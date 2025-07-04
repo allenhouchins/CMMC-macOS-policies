@@ -20,7 +20,6 @@
 # SECTION 1: AUTHENTICATION CONTROLS (3 POLICIES)
 # =============================================================================
 
----
 apiVersion: v1
 kind: policy
 spec:
