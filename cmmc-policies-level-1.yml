@@ -1,9 +1,9 @@
 # CMMC Level 1 Security Policies for Fleet
 # Based on US CMMC 2.0 Level 1 requirements from the usnistgov/macos_security project
-# Compatible with Fleet and osquery - COMPLETE LEVEL 1 IMPLEMENTATION
+# Compatible with Fleet and osquery
 #
 # USAGE:
-# 1. Upload this YAML file to Fleet using fleetctl apply -f cmmc_level1_policies.yaml
+# 1. Upload this YAML file to Fleet using fleetctl apply -f cmmc-policies-level-1.yml
 # 2. Apply these policies to macOS hosts through Fleet teams/targeting
 # 3. Review policy results in the Fleet dashboard
 # 4. Use the resolution steps to remediate failing policies
