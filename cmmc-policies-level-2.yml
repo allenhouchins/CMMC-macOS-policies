@@ -32,7 +32,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AC.L1-3.1.1, access_control
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -50,7 +50,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AC.L1-3.1.2, access_control
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -69,7 +69,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AC.L1-3.1.3, cui_protection
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -86,7 +86,7 @@ spec:
     ) <= 1;
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AC.L1-3.1.4, separation_duties
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -104,7 +104,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AC.L1-3.1.5, least_privilege
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -123,7 +123,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AC.L1-3.1.6, non_privileged_accounts
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -141,7 +141,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AC.L1-3.1.7, privileged_functions
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -160,7 +160,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AC.L1-3.1.8, login_attempts
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -178,7 +178,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AC.L1-3.1.9, privacy_notices
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -197,7 +197,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AC.L1-3.1.10, session_termination
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -216,7 +216,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AC.L1-3.1.12, remote_access
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -235,7 +235,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AC.L1-3.1.13, cryptographic_protection
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -254,7 +254,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AC.L1-3.1.14, managed_access_points
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -272,7 +272,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AC.L1-3.1.15, remote_authorization
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -290,7 +290,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AC.L1-3.1.16, wireless_authorization
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 # =============================================================================
 # SECTION 2: AWARENESS AND TRAINING (AT) - 3 POLICIES
@@ -307,7 +307,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AT.L2-3.2.1, supplemental, security_awareness
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -320,7 +320,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AT.L2-3.2.2, supplemental, privileged_training
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -333,7 +333,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AT.L2-3.2.3, supplemental, third_party_training
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 # =============================================================================
 # SECTION 3: AUDIT AND ACCOUNTABILITY (AU) - 30 POLICIES
@@ -350,7 +350,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM launchd WHERE name = 'com.apple.auditd' AND status = 'running');
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AU.L2-3.3.1, audit_auditd_enabled
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -368,7 +368,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AU.L2-3.3.2, audit_flags_configure
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -386,7 +386,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AU.L2-3.3.3, audit_review_update
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -404,7 +404,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AU.L2-3.3.4, audit_failure_alert
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -422,7 +422,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AU.L2-3.3.5, audit_correlation
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -440,7 +440,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AU.L2-3.3.6, audit_reduction_reporting
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -458,7 +458,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AU.L2-3.3.7, time_synchronization
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -477,7 +477,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AU.L2-3.3.8, audit_protection
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -496,7 +496,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AU.L2-3.3.9, audit_management_limit
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -509,7 +509,7 @@ spec:
   query: SELECT 1 WHERE NOT EXISTS (SELECT 1 FROM file WHERE path LIKE '/var/audit/%' AND mode LIKE '%+%');
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AU.L2-3.3.8, audit_acls_files_configure
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -522,7 +522,7 @@ spec:
   query: SELECT 1 WHERE NOT EXISTS (SELECT 1 FROM file WHERE path = '/var/audit' AND mode LIKE '%+%');
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AU.L2-3.3.8, audit_acls_folders_configure
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -540,7 +540,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AU.L2-3.3.6, audit_capacity_notify_configure
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -553,7 +553,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM file WHERE path = '/var/audit' AND gid = 0);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AU.L2-3.3.8, audit_control_group_configure
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -566,7 +566,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM file WHERE path = '/etc/security/audit_control' AND mode LIKE '40440');
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AU.L2-3.3.8, audit_control_mode_configure
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -579,7 +579,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM file WHERE path = '/etc/security/audit_control' AND uid = 0);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AU.L2-3.3.8, audit_control_owner_configure
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -592,7 +592,7 @@ spec:
   query: SELECT 1 WHERE NOT EXISTS (SELECT 1 FROM file WHERE path LIKE '/var/audit/%' AND gid != 0);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AU.L2-3.3.8, audit_files_group_configure
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -605,7 +605,7 @@ spec:
   query: SELECT 1 WHERE NOT EXISTS (SELECT 1 FROM file WHERE path LIKE '/var/audit/%' AND mode NOT LIKE '40440');
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AU.L2-3.3.8, audit_files_mode_configure
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -618,7 +618,7 @@ spec:
   query: SELECT 1 WHERE NOT EXISTS (SELECT 1 FROM file WHERE path LIKE '/var/audit/%' AND uid != 0);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AU.L2-3.3.8, audit_files_owner_configure
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -631,7 +631,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM file WHERE path = '/var/audit' AND gid = 0);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AU.L2-3.3.8, audit_folder_group_configure
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -644,7 +644,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM file WHERE path = '/var/audit' AND mode LIKE '40700');
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AU.L2-3.3.8, audit_folder_mode_configure
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -657,7 +657,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM file WHERE path = '/var/audit' AND uid = 0);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AU.L2-3.3.8, audit_folder_owner_configure
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -675,7 +675,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AU.L2-3.3.6, audit_log_capacity_warning_configure
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -693,7 +693,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AU.L2-3.3.2, audit_record_formats_configure
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -711,7 +711,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AU.L2-3.3.1, audit_settings_configure
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -728,7 +728,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AU.L2-3.3.1, audit_auditd_enabled_startup
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -746,7 +746,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AU.L2-3.3.3, audit_admin_actions_enable
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -764,7 +764,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AU.L2-3.3.2, audit_user_mgmt_enable
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -782,7 +782,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AU.L2-3.3.7, audit_privileged_function_enable
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -800,7 +800,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AU.L2-3.3.1, audit_retention_configure
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -818,7 +818,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AU.L2-3.3.4, audit_settings_failure_notify
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 # =============================================================================
 # SECTION 4: CONFIGURATION MANAGEMENT (CM) - 10 POLICIES
@@ -841,7 +841,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, CM.L2-3.4.1, configuration_baselines
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -864,7 +864,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, CM.L2-3.4.2, least_functionality
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -882,7 +882,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, CM.L2-3.4.3, configuration_monitoring
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -895,7 +895,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, CM.L2-3.4.4, supplemental, configuration_impact_analysis
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -908,7 +908,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, CM.L2-3.4.5, supplemental, security_roles
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -926,7 +926,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, CM.L2-3.4.6, automated_mechanisms
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -943,7 +943,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, CM.L2-3.4.7, program_execution_restriction
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -962,7 +962,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, CM.L2-3.4.8, security_updates
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -981,7 +981,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, CM.L2-3.4.9, user_installed_software
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -1000,7 +1000,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, CM.L2-3.4.1, cm_change_control
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 # =============================================================================
 # SECTION 5: IDENTIFICATION AND AUTHENTICATION (IA) - 12 POLICIES
@@ -1023,7 +1023,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, IA.L1-3.5.1, user_identification
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -1042,7 +1042,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, IA.L1-3.5.2, user_authentication
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -1061,7 +1061,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, IA.L1-3.5.3, multifactor_authentication
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -1080,7 +1080,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, IA.L1-3.5.4, replay_resistant_auth
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -1099,7 +1099,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, IA.L1-3.5.5, identifier_reuse_prevention
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -1118,7 +1118,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, IA.L1-3.5.6, identifier_disable_inactivity
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -1137,7 +1137,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, IA.L1-3.5.7, password_complexity
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -1156,7 +1156,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, IA.L1-3.5.8, password_reuse_prohibition
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -1175,7 +1175,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, IA.L1-3.5.9, temporary_passwords
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -1194,7 +1194,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, IA.L1-3.5.10, cryptographic_passwords
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -1213,7 +1213,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, IA.L1-3.5.11, authentication_feedback_obscuring
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -1232,7 +1232,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, IA.L1-3.5.1, authentication, auth_smartcard_allow
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 # =============================================================================
 # SECTION 6: INCIDENT RESPONSE (IR) - 7 POLICIES  
@@ -1249,7 +1249,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, IR.L2-3.6.1, supplemental, incident_response_policy
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -1262,7 +1262,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, IR.L2-3.6.2, supplemental, incident_response_training
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -1275,7 +1275,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, IR.L2-3.6.3, supplemental, incident_response_testing
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -1293,7 +1293,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, IR.L2-3.6.4, incident_handling
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -1312,7 +1312,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, IR.L2-3.6.5, security_alerts_monitoring
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -1325,7 +1325,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, IR.L2-3.6.6, supplemental, incident_tracking
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -1338,7 +1338,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, IR.L2-3.6.7, supplemental, incident_response_resources
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 # =============================================================================
 # SECTION 7: MAINTENANCE (MA) - 5 POLICIES
@@ -1355,7 +1355,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, MA.L2-3.7.1, supplemental, maintenance_policy
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -1374,7 +1374,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, MA.L2-3.7.2, controlled_maintenance
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -1392,7 +1392,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, MA.L2-3.7.3, maintenance_tools_control
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -1411,7 +1411,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, MA.L2-3.7.4, nonlocal_maintenance
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -1424,7 +1424,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, MA.L2-3.7.5, supplemental, maintenance_personnel
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 # =============================================================================
 # SECTION 8: MEDIA PROTECTION (MP) - 9 POLICIES
@@ -1441,7 +1441,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, MP.L2-3.8.1, supplemental, media_protection_policy
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -1460,7 +1460,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, MP.L2-3.8.2, media_access_control
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -1473,7 +1473,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, MP.L2-3.8.3, supplemental, media_marking
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -1486,7 +1486,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, MP.L2-3.8.4, supplemental, media_storage
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -1499,7 +1499,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, MP.L2-3.8.5, supplemental, media_transport
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -1516,7 +1516,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, MP.L2-3.8.6, media_sanitization
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -1535,7 +1535,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, MP.L2-3.8.7, media_use_restrictions
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -1554,7 +1554,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, MP.L2-3.8.8, portable_media_controls
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -1567,7 +1567,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, MP.L2-3.8.9, supplemental, media_downgrading
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 # =============================================================================
 # SECTION 9: PERSONNEL SECURITY (PS) - 6 POLICIES
@@ -1584,7 +1584,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, PS.L2-3.9.1, supplemental, personnel_security_policy
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -1597,7 +1597,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, PS.L2-3.9.2, supplemental, position_risk_designation
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -1610,7 +1610,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, PS.L2-3.9.3, supplemental, personnel_screening
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -1623,7 +1623,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, PS.L2-3.9.4, supplemental, personnel_termination
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -1636,7 +1636,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, PS.L2-3.9.5, supplemental, personnel_transfer
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -1649,7 +1649,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, PS.L2-3.9.6, supplemental, third_party_personnel
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 # =============================================================================
 # SECTION 10: PHYSICAL PROTECTION (PE) - 11 POLICIES
@@ -1666,7 +1666,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, PE.L2-3.10.1, supplemental, physical_protection_policy
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -1679,7 +1679,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, PE.L2-3.10.2, supplemental, physical_access_authorizations
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -1692,7 +1692,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, PE.L2-3.10.3, supplemental, physical_access_control
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -1705,7 +1705,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, PE.L2-3.10.4, supplemental, physical_access_monitoring
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -1718,7 +1718,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, PE.L2-3.10.5, supplemental, physical_access_records
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -1731,7 +1731,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, PE.L2-3.10.6, supplemental, visitor_control
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -1750,7 +1750,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, PE.L2-3.10.7, workstation_security
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -1769,7 +1769,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, PE.L2-3.10.8, device_controls
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -1788,7 +1788,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, PE.L2-3.10.9, information_display_controls
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -1801,7 +1801,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, PE.L2-3.10.10, supplemental, alternate_work_sites
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -1814,7 +1814,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, PE.L2-3.10.11, supplemental, emergency_power
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 # =============================================================================
 # SECTION 11: RISK ASSESSMENT (RA) - 6 POLICIES
@@ -1831,7 +1831,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, RA.L2-3.11.1, supplemental, risk_assessment_policy
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -1844,7 +1844,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, RA.L2-3.11.2, supplemental, security_categorization
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -1863,7 +1863,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, RA.L2-3.11.3, vulnerability_scanning
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -1876,7 +1876,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, RA.L2-3.11.4, supplemental, threat_information
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -1889,7 +1889,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, RA.L2-3.11.5, supplemental, risk_assessment_updates
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -1902,7 +1902,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, RA.L2-3.11.6, supplemental, supply_chain_risk_assessment
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 # =============================================================================
 # SECTION 12: SECURITY ASSESSMENT (CA) - 8 POLICIES
@@ -1919,7 +1919,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, CA.L2-3.12.1, supplemental, security_assessment_policy
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -1932,7 +1932,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, CA.L2-3.12.2, supplemental, security_control_assessments
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -1951,7 +1951,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, CA.L2-3.12.3, system_interconnections
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -1964,7 +1964,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, CA.L2-3.12.4, supplemental, plan_of_action_milestones
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -1982,7 +1982,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, CA.L2-3.12.5, continuous_monitoring
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -1995,7 +1995,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, CA.L2-3.12.6, supplemental, penetration_testing
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -2014,7 +2014,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, CA.L2-3.12.7, internal_system_connections
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -2027,7 +2027,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, CA.L2-3.12.8, supplemental, assessment_documentation
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 # =============================================================================
 # SECTION 13: SYSTEM AND COMMUNICATIONS PROTECTION (SC) - 25 POLICIES
@@ -2050,7 +2050,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, SC.L1-3.13.1, communications_monitoring
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -2063,7 +2063,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, SC.L1-3.13.2, supplemental, architectural_designs
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -2081,7 +2081,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, SC.L1-3.13.3, functionality_separation
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -2100,7 +2100,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, SC.L1-3.13.4, unauthorized_connections
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -2119,7 +2119,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, SC.L1-3.13.5, boundary_protections
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -2138,7 +2138,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, SC.L1-3.13.6, default_deny_network
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -2157,7 +2157,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, SC.L1-3.13.7, split_tunneling_prevention
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -2174,7 +2174,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, SC.L1-3.13.8, cryptographic_mechanisms
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -2193,7 +2193,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, SC.L1-3.13.9, network_connection_termination
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -2212,7 +2212,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, SC.L1-3.13.10, cryptographic_key_management
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -2231,7 +2231,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, SC.L2-3.13.11, fips_cryptography
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -2250,7 +2250,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, SC.L2-3.13.12, remote_activation_prohibition
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -2267,7 +2267,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, SC.L2-3.13.13, mobile_code_control
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -2286,7 +2286,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, SC.L2-3.13.14, voip_control
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -2305,7 +2305,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, SC.L2-3.13.15, communications_authenticity
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -2322,7 +2322,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, SC.L2-3.13.16, confidentiality_at_rest
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -2341,7 +2341,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, SC.L2-3.13.17, boundary_protection_mechanisms
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -2360,7 +2360,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, SC.L2-3.13.18, fail_to_known_state
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -2379,7 +2379,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, SC.L2-3.13.19, name_address_resolution
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -2398,7 +2398,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, SC.L2-3.13.20, data_origin_authentication
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -2417,7 +2417,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, SC.L2-3.13.21, dns_authentication_verification
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -2436,7 +2436,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, SC.L2-3.13.22, session_authenticity_protection
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -2455,7 +2455,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, SC.L2-3.13.23, session_identifier_invalidation
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -2474,7 +2474,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, SC.L2-3.13.24, unique_session_identifiers
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -2498,7 +2498,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, SC.L2-3.13.25, external_boundary_communications
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 # =============================================================================
 # SECTION 14: SYSTEM AND INFORMATION INTEGRITY (SI) - 12 POLICIES
@@ -2521,7 +2521,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, SI.L1-3.14.1, system_flaw_identification
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -2538,7 +2538,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, SI.L1-3.14.2, malicious_code_protection
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -2557,7 +2557,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, SI.L1-3.14.3, security_alerts_monitoring
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -2576,7 +2576,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, SI.L1-3.14.4, malicious_code_updates
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -2595,7 +2595,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, SI.L1-3.14.5, periodic_scanning
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -2613,7 +2613,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, SI.L2-3.14.6, unauthorized_use_monitoring
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -2631,7 +2631,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, SI.L2-3.14.7, unauthorized_use_identification
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -2650,7 +2650,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, SI.L2-3.14.8, information_input_validation
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -2669,7 +2669,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, SI.L2-3.14.9, secure_error_handling
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -2688,7 +2688,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, SI.L2-3.14.10, memory_protection
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -2706,7 +2706,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, SI.L2-3.14.11, software_firmware_integrity
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -2725,7 +2725,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, SI.L2-3.14.12, information_handling_retention
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 # =============================================================================
 # SECTION 15: MACOS-SPECIFIC CONTROLS - 52 POLICIES (COMPLETE)
@@ -2748,7 +2748,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AC.L1-3.1.5, macos_account_modification_disable
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -2767,7 +2767,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AC.L1-3.1.20, macos_airdrop_disable
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -2786,7 +2786,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, IA.L2-3.5.1, macos_appleid_prompt_disable
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -2804,7 +2804,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, SI.L1-3.14.1, macos_authenticated_root_enable
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -2823,7 +2823,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, MP.L2-3.8.7, macos_blank_bluray_disable
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -2842,7 +2842,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, MP.L2-3.8.7, macos_blank_cd_disable
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -2861,7 +2861,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, MP.L2-3.8.7, macos_blank_dvd_disable
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -2880,7 +2880,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, MP.L2-3.8.3, macos_bluray_read_only_enforce
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -2899,7 +2899,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, SC.L1-3.13.4, macos_bonjour_disable
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -2918,7 +2918,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, MP.L2-3.8.7, macos_burn_support_disable
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -2942,7 +2942,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, CM.L2-3.4.6, macos_calendar_app_disable
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -2961,7 +2961,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, MP.L2-3.8.3, macos_cd_read_only_enforce
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -2980,7 +2980,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, CM.L2-3.4.1, macos_config_data_install_enforce
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -2999,7 +2999,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, CM.L2-3.4.2, macos_config_profile_ui_install_disable
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -3018,7 +3018,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, SC.L1-3.13.4, macos_dictation_disable
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -3037,7 +3037,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, CM.L2-3.4.7, macos_disk_image_disable
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -3056,7 +3056,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, MP.L2-3.8.7, macos_dvdram_disable
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -3075,7 +3075,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, MP.L2-3.8.3, macos_erase_content_and_settings_disable
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -3094,7 +3094,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, MP.L2-3.8.1, macos_external_storage_access_defined
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -3113,7 +3113,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, CM.L2-3.4.6, macos_facetime_app_disable
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -3132,7 +3132,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, IA.L1-3.5.1, macos_filevault_autologin_disable
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -3156,7 +3156,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, SC.L1-3.13.6, macos_firewall_default_deny_require
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -3174,7 +3174,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, IA.L2-3.5.1, macos_firmware_password_require
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -3191,7 +3191,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, SI.L1-3.14.2, macos_gatekeeper_enable
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -3210,26 +3210,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, CM.L2-3.4.6, macos_genmoji_disable
-  contributors: cmmc-team
-
----
-apiVersion: v1
-kind: policy
-spec:
-  name: CMMC L2 - Disable Handoff
-  platform: darwin
-  description: Handoff must be disabled to prevent unauthorized cross-device data synchronization. (AC.L1-3.1.20)
-  resolution: Deploy configuration profile to disable Handoff and Continuity features
-  query: |
-    SELECT 1 WHERE EXISTS (
-      SELECT 1 FROM managed_policies 
-      WHERE domain = 'com.apple.applicationaccess'
-      AND name = 'allowActivityContinuation'
-      AND value = 'false'
-    );
-  purpose: Informational
-  tags: compliance, CMMC, CMMC_Level2, AC.L1-3.1.20, macos_handoff_disable
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -3247,7 +3228,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AC.L1-3.1.1, macos_home_folders_default
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -3265,7 +3246,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AC.L1-3.1.1, macos_home_folders_secure
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -3283,7 +3264,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, CM.L2-3.4.6, macos_httpd_disable
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -3302,7 +3283,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, SC.L1-3.13.4, macos_icloud_storage_prompt_disable
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -3321,7 +3302,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, CM.L2-3.4.6, macos_image_generation_disable
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -3340,7 +3321,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AU.L2-3.3.1, macos_install_log_retention_configure
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -3359,7 +3340,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AC.L1-3.1.20, macos_iphone_mirroring_disable
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -3378,7 +3359,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, CM.L2-3.4.6, macos_ir_support_disable
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -3396,7 +3377,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AC.L1-3.1.1, macos_loginwindow_adminhostinfo_undefined
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -3415,7 +3396,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, CM.L2-3.4.6, macos_mail_app_disable
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -3434,7 +3415,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, CM.L2-3.4.6, macos_mail_smart_reply_disable
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -3453,7 +3434,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, CM.L2-3.4.6, macos_mail_summary_disable
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -3470,7 +3451,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, CM.L2-3.4.1, macos_mdm_require
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -3489,7 +3470,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, CM.L2-3.4.6, macos_messages_app_disable
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -3507,7 +3488,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, CM.L2-3.4.6, macos_nfsd_disable
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -3526,7 +3507,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, CM.L2-3.4.6, macos_notes_transcription_disable
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -3545,7 +3526,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, CM.L2-3.4.6, macos_notes_transcription_summary_disable
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -3564,7 +3545,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, SC.L1-3.13.4, macos_on_device_dictation_enforce
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -3583,7 +3564,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AC.L1-3.1.2, macos_parental_controls_enable
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -3602,7 +3583,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, IA.L2-3.5.1, macos_password_autofill_disable
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -3621,7 +3602,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, IA.L2-3.5.1, macos_password_hint_remove
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -3640,7 +3621,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, IA.L2-3.5.1, macos_password_proximity_disable
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -3659,7 +3640,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, IA.L2-3.5.1, macos_password_sharing_disable
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -3678,7 +3659,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, CM.L2-3.4.6, macos_photos_enhanced_search_disable
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -3698,7 +3679,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AC.L1-3.1.1, macos_policy_banner_loginwindow_enforce
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -3717,7 +3698,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AC.L1-3.1.1, macos_policy_banner_ssh_configure
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -3736,7 +3717,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, SI.L1-3.14.1, macos_rapid_security_response_allow
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -3755,7 +3736,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, SI.L1-3.14.1, macos_rapid_security_response_removal_disable
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -3774,7 +3755,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, IA.L2-3.5.1, macos_recovery_lock_enable
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -3793,7 +3774,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AC.L1-3.1.1, macos_root_disable
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -3812,7 +3793,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, CM.L2-3.4.6, macos_safari_reader_summary_disable
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -3830,7 +3811,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, SI.L1-3.14.1, macos_sip_enable
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -3849,7 +3830,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, SC.L1-3.13.4, macos_siri_prompt_disable
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -3868,7 +3849,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, IA.L2-3.5.1, macos_skip_unlock_with_watch_enable
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -3886,7 +3867,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, CM.L2-3.4.6, macos_tftpd_disable
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -3905,7 +3886,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AC.L1-3.1.11, macos_unlock_active_user_session_disable
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -3923,7 +3904,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, CM.L2-3.4.6, macos_uucp_disable
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -3942,7 +3923,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, CM.L2-3.4.6, macos_writing_tools_disable
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 # =============================================================================
 # SECTION 16: ICLOUD AND CLOUD SERVICES - 18 POLICIES
@@ -3965,7 +3946,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, MP.L2-3.8.7, icloud_backup_disable
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -3984,7 +3965,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AC.L1-3.1.3, icloud_calendar_disable
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -4003,7 +3984,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AC.L1-3.1.3, icloud_contacts_disable
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -4022,7 +4003,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, MP.L2-3.8.7, icloud_drive_disable
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -4041,7 +4022,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, IA.L1-3.5.10, icloud_keychain_disable
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -4060,7 +4041,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AC.L1-3.1.3, icloud_mail_disable
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -4079,7 +4060,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, MP.L2-3.8.7, icloud_photos_disable
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -4098,7 +4079,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AC.L1-3.1.3, icloud_messages_disable
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -4117,7 +4098,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AC.L1-3.1.3, icloud_notes_disable
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -4136,7 +4117,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AC.L1-3.1.3, icloud_reminders_disable
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -4155,7 +4136,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, MP.L2-3.8.7, icloud_desktop_documents_disable
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -4174,7 +4155,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AC.L1-3.1.3, icloud_bookmarks_disable
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -4193,7 +4174,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, MP.L2-3.8.7, cloud_document_sync_disable
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -4212,7 +4193,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AC.L1-3.1.3, handoff_disable
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -4231,7 +4212,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AC.L1-3.1.3, universal_clipboard_disable
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -4250,7 +4231,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, IA.L1-3.5.1, auto_unlock_disable
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -4269,7 +4250,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, SC.L1-3.13.1, icloud_private_relay_disable
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -4288,7 +4269,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AC.L1-3.1.3, find_my_device_configure
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 # =============================================================================
 # SECTION 17: PASSWORD POLICY CONTROLS - 15 POLICIES
@@ -4311,7 +4292,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, IA.L1-3.5.7, password_length_enforce
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -4330,7 +4311,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, IA.L1-3.5.7, password_complexity_enforce
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -4349,7 +4330,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, IA.L1-3.5.8, password_history_enforce
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -4368,7 +4349,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, IA.L1-3.5.9, password_age_maximum_enforce
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -4387,7 +4368,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, IA.L1-3.5.9, password_age_minimum_enforce
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -4406,7 +4387,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AC.L1-3.1.8, account_lockout_enforce
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -4425,7 +4406,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AC.L1-3.1.8, account_lockout_time_enforce
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -4444,7 +4425,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, IA.L1-3.5.7, password_special_characters_enforce
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -4463,7 +4444,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, IA.L1-3.5.11, password_hints_disable
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -4482,7 +4463,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, IA.L1-3.5.6, password_grace_period_disable
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -4501,7 +4482,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, IA.L1-3.5.7, password_case_sensitivity_enforce
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -4519,7 +4500,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, IA.L1-3.5.1, automatic_login_disable
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -4538,7 +4519,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, IA.L1-3.5.9, password_change_first_login_enforce
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -4557,7 +4538,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AC.L1-3.1.10, screensaver_password_enforce
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -4576,7 +4557,7 @@ spec:
     );
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AC.L1-3.1.10, screensaver_password_delay_enforce
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 # =============================================================================
 # SECTION 18: INHERENT CONTROLS - 18 POLICIES
@@ -4593,7 +4574,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, SC.L1-3.13.8, inherent, macos_builtin_encryption
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -4606,7 +4587,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, SI.L2-3.14.1, inherent, macos_secure_boot
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -4619,7 +4600,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, SI.L1-3.14.2, inherent, macos_application_security
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -4632,7 +4613,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, SI.L2-3.14.11, inherent, macos_system_integrity_protection
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -4645,7 +4626,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, IA.L1-3.5.2, inherent, macos_user_authentication
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -4658,7 +4639,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AC.L1-3.1.1, inherent, macos_access_controls
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -4671,7 +4652,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AC.L1-3.1.9, inherent, macos_privacy_protections
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -4684,7 +4665,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, SI.L2-3.14.10, inherent, macos_memory_protection
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -4697,7 +4678,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, SC.L1-3.13.1, inherent, macos_network_security
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -4710,7 +4691,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, SI.L1-3.14.2, inherent, macos_malware_protection
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -4723,7 +4704,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, SI.L1-3.14.1, inherent, macos_update_management
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -4736,7 +4717,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AU.L2-3.3.1, inherent, macos_audit_capabilities
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -4749,7 +4730,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AC.L1-3.1.10, inherent, macos_session_management
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -4762,7 +4743,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, SI.L2-3.14.11, inherent, macos_code_integrity
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -4775,7 +4756,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, SC.L1-3.13.3, inherent, macos_sandboxing
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -4788,7 +4769,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, IA.L1-3.5.10, inherent, macos_keychain_services
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -4801,7 +4782,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AU.L2-3.3.7, inherent, macos_time_synchronization
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -4814,7 +4795,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, SC.L1-3.13.4, inherent, macos_resource_management
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 # =============================================================================
 # SECTION 19: PERMANENT CONTROLS - 12 POLICIES
@@ -4831,7 +4812,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, SC.L2-3.13.11, permanent, hardware_security_features
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -4844,7 +4825,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, IA.L2-3.5.4, permanent, secure_enclave
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -4857,7 +4838,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, SC.L1-3.13.8, permanent, hardware_encryption
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -4870,7 +4851,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, SI.L2-3.14.1, permanent, secure_boot
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -4883,7 +4864,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, SC.L1-3.13.10, permanent, hardware_key_management
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -4896,7 +4877,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, SI.L2-3.14.11, permanent, hardware_integrity_protection
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -4909,7 +4890,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, IA.L1-3.5.3, permanent, hardware_authentication
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -4922,7 +4903,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, SI.L2-3.14.10, permanent, hardware_memory_protection
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -4935,7 +4916,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, SC.L2-3.13.24, permanent, hardware_rng
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -4948,7 +4929,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, SC.L1-3.13.3, permanent, hardware_separation
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -4961,7 +4942,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, SI.L2-3.14.11, permanent, hardware_code_signing
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -4974,7 +4955,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AC.L1-3.1.9, permanent, hardware_privacy_protections
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 # =============================================================================
 # SECTION 20: NOT APPLICABLE CONTROLS - 5 POLICIES
@@ -4991,7 +4972,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AC.L2-3.1.20, not_applicable, network_access_controls
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -5004,7 +4985,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AC.L2-3.1.21, not_applicable, mobile_device_management
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -5017,7 +4998,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, AC.L2-3.1.22, not_applicable, wireless_access_points
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -5030,7 +5011,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, CP.L2-3.8.9, not_applicable, enterprise_backup
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -5043,7 +5024,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, CP.L2-3.8.10, not_applicable, enterprise_recovery
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 # =============================================================================
 # SECTION 21: SUPPLEMENTAL CONTROLS - 2 POLICIES
@@ -5060,7 +5041,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, supplemental, security_documentation
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 ---
 apiVersion: v1
@@ -5073,7 +5054,7 @@ spec:
   query: SELECT 1 WHERE EXISTS (SELECT 1 FROM system_info WHERE hardware_model IS NOT NULL);
   purpose: Informational
   tags: compliance, CMMC, CMMC_Level2, supplemental, incident_response_procedures
-  contributors: cmmc-team
+  contributors: allenhouchins
 
 # =============================================================================
 # DEPLOYMENT SUMMARY - 209 COMPLETE CMMC LEVEL 2 POLICIES
